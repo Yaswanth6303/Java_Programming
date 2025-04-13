@@ -1,0 +1,32 @@
+# Eclipse workspace settings (should not be committed)
+.metadata/
+
+# Eclipse project files (optional — commit only if everyone uses Eclipse)
+.project
+.classpath
+.settings/
+
+# Compiled Java class files
+bin/
+*.class
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Package distribution files
+*.jar
+*.war
+*.ear
+
+# VS Code config (if you ever use VS Code for Java)
+.vscode/
