@@ -75,6 +75,7 @@ public class BubbleSort_2 {
 			for(int j = 0; j <= i - 1; j++) {
 				if (nums[j] > nums[j + 1]) {
 					HelperFunctions.swap(nums, j, j + 1);
+					isSwapped = true;
 				}
 			}
 			
