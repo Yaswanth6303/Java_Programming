@@ -1,6 +1,7 @@
 package mediumfaqs;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class HelperFunctions {
 	public static void printArray(int[] nums) {
@@ -10,6 +11,13 @@ public class HelperFunctions {
 		System.out.println();
 	}
 	public static void printList(ArrayList<Integer> list) {
+		for(int i = 0; i < list.size(); i++) {
+			System.out.print(list.get(i) + " ");
+		}
+		System.out.println();
+	}
+	
+	public static void printList(List<Integer> list) {
 		for(int i = 0; i < list.size(); i++) {
 			System.out.print(list.get(i) + " ");
 		}
