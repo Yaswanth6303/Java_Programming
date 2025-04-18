@@ -9,7 +9,9 @@ package mediumfaqs;
  * - An optimal in-place iterative method that prints the row
  * - An optimal method that returns the row as an array
  *
- * Time Complexity: O(r) for all methods
+ * Time Complexity: 
+ *   - O(n * r) for Brute
+ *   - O(r) for Optimal_1 and Optimal_2
  * Space Complexity: 
  *   - O(1) for printing methods (Brute and Optimal_1)
  *   - O(r) for returning method (Optimal_2)
@@ -19,14 +21,14 @@ public class PascalTriangle2_5 {
     /**
      * Brute-force method to print the r-th row of Pascal's Triangle using nCr formula.
      * 
-     * Time Complexity: O(r)
+     * Time Complexity: O(n * r)
      * Space Complexity: O(1)
      *
      * @param r Row number (1-based)
      */
     public void pascalTriangle2Brute_1(int r) {
-        for (int c = 0; c < r; c++) {  // indexing from 0
-            int value = PascalTriangle1_4.nCr(r - 1, c);
+        for (int c = 1; c <= r; c++) {  
+            int value = PascalTriangle1_4.nCr(r - 1, c - 1);
             System.out.print(value + " "); 
         }
         System.out.println();

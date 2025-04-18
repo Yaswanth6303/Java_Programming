@@ -32,14 +32,19 @@ public class PascalTriangle1_4 {
      * @return The computed nCr value
      */
     public static int nCr(int n, int r) {
-        int result = 1;
+    	
+    	if (r > n - r) {
+			r = n - r;
+		}
+    	
+        long result = 1;
 
         for (int i = 0; i < r; i++) {
             result = result * (n - i);
             result = result / (i + 1);
         }
 
-        return result;
+        return (int)result;
     }
 
     public static void main(String[] args) {

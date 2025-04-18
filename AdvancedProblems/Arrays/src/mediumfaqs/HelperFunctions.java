@@ -23,4 +23,13 @@ public class HelperFunctions {
 		}
 		System.out.println();
 	}
+	
+	public static void printListOfLists(List<List<Integer>> listOfLists) {
+	    for (List<Integer> innerList : listOfLists) {
+	        for (int num : innerList) {
+	            System.out.print(num + " ");
+	        }
+	        System.out.println(); 
+	    }
+	}
 }
