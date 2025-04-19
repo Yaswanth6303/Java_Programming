@@ -17,8 +17,8 @@ import java.util.List;
  *
  * Output: [1, 2, 3, 4, 8, 12, 16, 15, 14, 13, 9, 5, 6, 7, 11, 10]
  *
- * Time Complexity: O(m * n), where m = rows and n = columns. Space Complexity:
- * O(1) (excluding the result list).
+ * Time Complexity: O(m * n), where m = rows and n = columns. 
+ * Space Complexity: O(1) (excluding the result list).
  */
 public class SpiralMatrix_3 {
 

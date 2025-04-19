@@ -12,15 +12,15 @@ import java.util.Collections;
  * 
  * This class demonstrates two approaches:
  * 
- * - Brute Force: Compares each element with all the elements to its right. -
- * Optimal: Traverses from right to left, maintaining the maximum encountered so
- * far.
+ * - Brute Force: Compares each element with all the elements to its right. 
+ * - Optimal: Traverses from right to left, maintaining the maximum encountered so far.
  * 
- * Time Complexity: - Brute Force: O(n^2) — nested loops for every pair
- * comparison. - Optimal: O(n) — single pass from right to left.
+ * Time Complexity: 
+ * - Brute Force: O(n^2) — nested loops for every pair comparison. 
+ * - Optimal: O(n) — single pass from right to left.
  * 
- * Space Complexity: - Both approaches: O(k) — where `k` is the number of
- * leaders found.
+ * Space Complexity: 
+ * - Both approaches: O(k) — where `k` is the number of leaders found.  
  */
 public class LeaderInArray_1 {
 

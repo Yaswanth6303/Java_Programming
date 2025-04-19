@@ -10,17 +10,18 @@ import java.util.List;
  *
  * This class demonstrates two approaches:
  * 
- * - Brute Force: Separates positives and negatives into two lists, then
- * interleaves them. - Optimal: Uses extra space but fills positive and negative
- * numbers directly into even and odd indices in a single traversal.
+ * - Brute Force: Separates positives and negatives into two lists, then interleaves them. 
+ * - Optimal: Uses extra space but fills positive and negative numbers directly into even and odd indices in a single traversal.
  *
- * Assumption: - The number of positive and negative integers is always equal.
+ * Assumption: 
+ * - The number of positive and negative integers is always equal.
  *
- * Time Complexity: - Both approaches: O(n) — single-pass separation and
- * placement.
+ * Time Complexity: 
+ * - Both approaches: O(n) — single-pass separation and placement.
  * 
- * Space Complexity: - Brute Force: O(n) — for two separate lists. - Optimal:
- * O(n) — for the rearranged result array.
+ * Space Complexity: 
+ * - Brute Force: O(n) — for two separate lists. 
+ * - Optimal: O(n) — for the rearranged result array.
  */
 public class RearrangeElementsBySign_2 {
 
@@ -28,8 +29,9 @@ public class RearrangeElementsBySign_2 {
 	 * Rearranges the array so that positive and negative elements appear
 	 * alternately using a brute-force approach.
 	 *
-	 * Steps: - Separates all positive and negative numbers into two lists. -
-	 * Reconstructs the original array by placing positive numbers at even indices
+	 * Steps: 
+	 * - Separates all positive and negative numbers into two lists. 
+	 * - Reconstructs the original array by placing positive numbers at even indices
 	 * and negative numbers at odd indices.
 	 *
 	 * @param nums Input array of integers (equal count of positives and negatives
@@ -62,8 +64,9 @@ public class RearrangeElementsBySign_2 {
 	 * Rearranges the array so that positive and negative elements appear
 	 * alternately using an optimal approach.
 	 *
-	 * Steps: - Traverses the original array once. - Places positive numbers at even
-	 * indices and negative numbers at odd indices.
+	 * Steps: 
+	 * - Traverses the original array once. 
+	 * - Places positive numbers at even indices and negative numbers at odd indices.
 	 *
 	 * @param nums Input array of integers (equal count of positives and negatives
 	 *             assumed).
