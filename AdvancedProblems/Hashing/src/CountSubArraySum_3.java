@@ -26,7 +26,7 @@ import java.util.Map;
  * Input: nums = [1, 2, 3], k = 3
  * Output: 2 (subarrays [1,2] and [3])
  */
-public class CountSubArraySum {
+public class CountSubArraySum_3 {
 
     /**
      * Brute Force approach to count subarrays with sum equal to k.
@@ -106,7 +106,7 @@ public class CountSubArraySum {
     }
 
     public static void main(String[] args) {
-        CountSubArraySum countSubArraySum = new CountSubArraySum();
+        CountSubArraySum_3 countSubArraySum = new CountSubArraySum_3();
         int[] nums = {1, 2, 3};
         int k = 3;
 

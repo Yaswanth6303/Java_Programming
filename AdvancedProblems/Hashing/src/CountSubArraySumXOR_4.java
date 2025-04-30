@@ -26,7 +26,7 @@ import java.util.Map;
  * Input: nums = [4, 2, 2, 6, 4], k = 6
  * Output: 4 (subarrays: [4,2], [2,2,6], [6], [4,2,2,6])
  */
-public class CountSubArraySumXOR {
+public class CountSubArraySumXOR_4 {
 
     /**
      * Brute Force approach to count subarrays with XOR equal to k.
@@ -106,7 +106,7 @@ public class CountSubArraySumXOR {
     }
 
     public static void main(String[] args) {
-        CountSubArraySumXOR countSubArraySumXOR = new CountSubArraySumXOR();
+        CountSubArraySumXOR_4 countSubArraySumXOR = new CountSubArraySumXOR_4();
         int[] nums = {4, 2, 2, 6, 4};
         int k = 6;
 
